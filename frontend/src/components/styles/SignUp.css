@@ -1,0 +1,111 @@
+/* Container styles */
+.container {
+  max-width: 800px !important; /* Increased width with !important */
+  margin: 0 auto !important;
+  padding: 20px !important;
+  background-color: #fff !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 8px !important;
+  text-align: center !important;
+}
+
+/* Navigation bar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2b4257;
+  color: white;
+}
+
+.navbar .home-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar .home-link img {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+/* Heading styles */
+.container h1 {
+  font-size: 2rem !important;
+  margin-bottom: 20px !important;
+  color: #333 !important;
+}
+
+/* Form styles */
+.container .form {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 15px !important;
+}
+
+/* Form row styles */
+.container .form-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 10px !important;
+}
+
+/* Label styles */
+.container label {
+  flex: 1 !important;
+  text-align: left !important;
+  font-size: 1rem !important;
+  color: #333 !important;
+}
+
+/* Input styles */
+.container .input {
+  flex: 2 !important;
+  padding: 10px !important;
+  font-size: 1rem !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  max-width: none !important; /* Remove max-width */
+  width: 600px !important; /* Set a larger width */
+  margin-bottom: 20px; /* Add margin-bottom to increase space below the input box */
+}
+
+/* Button styles */
+.container .button {
+  padding: 12px !important;
+  font-size: 1rem !important;
+  color: #fff !important;
+  background-color: #4CAF50 !important;
+  border: none !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
+  margin-top: 20px; /* Add margin-top to increase space above the button */
+}
+
+.container .button:hover {
+  background-color: #45a049 !important;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px !important;
+  }
+
+  .container .form-row {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .container .input, .container .button {
+    font-size: 0.9rem !important;
+    width: 100% !important; /* Ensure full width on smaller screens */
+  }
+}

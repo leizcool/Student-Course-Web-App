@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  padding: 5px 20px !important; /* Reduced padding */
+  background-color: #2b4257;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.8rem; /* Reduced font size */
+}
